@@ -1,0 +1,196 @@
+body {
+    background-color: #FFFC00;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+p {
+    color: #222;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.white-section {
+    background-color: #222;
+    color: #fff;
+}
+
+.white-section p {
+    color: #fff;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 0 0 4.5rem;
+    margin-right: 170px;
+}
+
+.nav-item {
+    padding: 18px;
+}
+
+.nav-link {
+    color: #222;
+    font-size: 1.2rem;
+    font-family: 'Source Serif Pro', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2.7rem;
+    padding: 2%;
+}
+
+/* HEADINGS */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #333;
+    
+ }
+ 
+ .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+ }
+ 
+ @media(max-width:700px) {
+    .big-heading {
+       font-size: 40px;
+       text-align:center;
+    }
+ 
+    .section-heading {
+       font-size: 35px;
+    }
+ }
+
+ /* TITLE */
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+ }
+ 
+ .download-button {
+    font-family: 'Source Serif Pro', sans-serif;
+    margin: 5% 3% 5% 0;
+ }
+
+ .title-image {
+    width: 100%;
+ }
+ 
+
+
+
+ /* Features */
+
+#features {
+    position: relative;
+ }
+ 
+ .feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ 
+ .feature-box {
+    padding: 4.5%;
+ }
+ 
+  .icon {
+    color: #FFFC00;
+    margin-bottom: 1rem;
+ }
+ 
+ .icon:hover {
+    color: #6ec007;
+ }
+
+ /* TESTIMONIALS */
+
+ .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', sans-serif;
+ }
+ 
+ .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    /*margin: 20px;*/
+    margin-right: 800px;
+}
+ 
+ .carousel-item {
+    padding: 7% 15%;
+ }
+ 
+ @media(max-width:700px) {
+    .testimonial-text {
+       font-size: 30px;
+       
+    }
+ }
+
+ /* PRESS */
+
+ #press {
+   padding-bottom: 3%;
+}
+
+#press .press-logo {
+   width: 15%;
+   margin: 20px 40px 50px;
+}
+
+#press .press-logo:nth-child(2) {
+   width: 100px;
+}
+
+@media(max-width:700px) {
+   #press .press-logo {
+      width: 100px;
+   }
+}
+
+ /* CTA */
+
+ #cta .big-heading {
+     color: #FFFC00;
+ }
+
+ /* FOOTER */
+
+ #footer  {
+     background-color: #FFFC00;
+     padding: 7%;
+     padding: 20px 0;
+ }
+
+ #footer p {
+     color: #333;
+     font-size: 1.2em;
+ }
+ 
+ .social-icon {
+    margin: 20px 10px;
+    color: #333;
+ }
+ 
+ .social-icon:hover {
+    cursor: pointer;
+    color: #6ec007;
+ }
+
+ 
+ 
+
